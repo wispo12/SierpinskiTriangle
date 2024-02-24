@@ -13,3 +13,7 @@ triangle(x, y, x+len/2, y-len, x+len, y);
   sierpinski( x + len/4,y - len/2, len/2);
   }
 }
+public void draw()
+{
+sierpinski(0,200,200);
+}
